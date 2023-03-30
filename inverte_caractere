@@ -1,0 +1,11 @@
+string = input("Digite uma string: ")
+tamanho = len(string)
+
+string_invertida = ""
+
+# Loop que percorre a string de trás para frente
+for i in range(tamanho-1, -1, -1):
+    string_invertida += string[i]
+
+print("String original: ", string)
+print("String invertida: ", string_invertida)
